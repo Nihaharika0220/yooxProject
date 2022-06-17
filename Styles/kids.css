@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav_bottom{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.nav_bottom>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+}
+.imageHeader>img{
+    padding:10px 0px;
+    margin:-13px 0;
+    width: 100%;
+}

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#top_section{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+#midnavSection{
+    
+   /* border: 1px solid red; */
+    display: flex;
+    width: 80%;
+    margin:auto;
+    justify-content: space-around;
+}
+
+#brandLogo{
+    height: 65px;
+    width: 65px;
+    /* background-color: red; */
+    font-size: 35px;
+}
+
+.nav_bottom{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.nav_bottom>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 800px;
+    margin: auto;
+}
+
+.heading{
+    color: black;
+    align-items: center;
+}
+
+.imageHeader{
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid red; */
+}
+.imageHeader>img{
+    padding:10px 0px;
+    margin:-13px 0;
+    width: 100%;
+}
+.imageHeaderHeading{
+    width: 50%;
+    margin: auto;
+    margin-bottom: -80px;
+    text-align: center;
+}
+.imageHeaderHeading>h2,.imageHeaderHeading>p{
+    z-index: 100;
+    position: relative;
+    margin: 15px;
+    line-height: 1;
+}
+.card{
+    width: 35%;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-top: -200px;
+    margin-left: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+.card_container{
+    display: flex;
+    /* border: 1px solid rgb(249, 83, 12); */
+    margin-top: 150px;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 100px;
+    
+}
+.card_container>div{
+    width: 25%;
+    margin: auto;
+
+}
+.card_container>div>img{
+    width: 100%;
+}
+ul li{
+    list-style: none;
+    line-height: 2.2;
+    font-weight: 700;
+    
+}
+h1,p{
+    text-align: center;
+
+}
+.gift_container{
+    display: flex;
+    text-align: center;
+}
+.gift_container>div>img{
+    width: 100%;
+}
+.list{
+    display: flex;
+
+}
+.list_container{
+    display: flex;
+}
+
+.list_container>div{
+    width: 60%;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#footer_signup{
+    text-align: center;
+    line-height: 20px;
+}
+
+#bottomCheck{
+    display: flex;
+}
